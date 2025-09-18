@@ -68,7 +68,7 @@
         "details": "Graduated with honors. Specialized in software development, data structures, and algorithms. Worked on various open-source projects and completed internships in tech companies."
     }],
     "projects": [{
-            "imageUrl": "assets/Kash.jpg",
+            "imageUrl": "/assets/Kash.jpg",
             "title": "Kash - Banking App",
             "type": "Website",
             "link": "https://kash.agilityio.com"
@@ -80,7 +80,7 @@
             "link": "https://www.agilityio.com/"
         },
         {
-            "imageUrl": "assets/zenbusiness.jpg",
+            "imageUrl": "/assets/zenbusiness.jpg",
             "title": "Zenbusiness - Company Website",
             "type": "Website",
             "link": "https://www.zenbusiness.com/"
