@@ -1,5 +1,6 @@
 ---
-const { title, sub_title, years, details } = Astro.props;
+const { title, sub_title, years, details, role, tech_stack, projects } =
+  Astro.props;
 ---
 
 <li class="p-5 bg-background-offset shadow-lg rounded-xl border border-default">
@@ -11,4 +12,51 @@ const { title, sub_title, years, details } = Astro.props;
     <p class="text-sm text-offset sm:text-right whitespace-nowrap">{years}</p>
   </div>
   <p class="mt-4 text-offset leading-relaxed">{details}</p>
+  <div class="mt-4 text-offset leading-relaxed">
+    {
+      role && (
+        <p>
+          <strong>Role:</strong> {role}
+        </p>
+      )
+    }
+    {
+      tech_stack && tech_stack.length > 0 && (
+        <div class="list-tech-stack">
+          <p>
+            <strong>Tech Stack:</strong>
+          </p>
+          <ul class="list-disc list-inside mt-2 pl-16">
+            {tech_stack.map((tech) => (
+              <li>{tech}</li>
+            ))}
+          </ul>
+        </div>
+      )
+    }
+    {
+      projects && projects.length > 0 && (
+        <div class="list-projects">
+          <p>
+            <strong>Projects:</strong>
+          </p>
+          <ul class="list-disc list-inside mt-2 pl-16">
+            {projects.map((project) => (
+              <li>
+                <a
+                  href={project.link_web}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-primary hover:underline"
+                >
+                  {project.name}
+                </a>
+                : {project.description}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )
+    }
+  </div>
 </li>

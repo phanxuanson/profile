@@ -1,66 +1,92 @@
 {
     "basic": {
-        "name": "Paul Smith",
-        "job": "Software Engineer",
+        "name": "Phan Xuan Son",
+        "job": "Front End Developer",
         "summary": "Transforming challenges into opportunities with cutting-edge technology. Driven by a love for elegant, robust code.",
-        "cv_file_name": "paul_cv.pdf"
+        "cv_file_name": "Xuan-Son-Phan-Front-end.pdf"
     },
-    "experiences": [
-        {
-            "title": "Senior Software Engineer",
-            "sub_title": "Tech Solutions Inc.",
+    "experiences": [{
+            "title": "Front End Developer",
+            "sub_title": "Agilityio Company",
             "years": "2021 - Present",
-            "details": "Led the development of a scalable e-commerce platform that increased sales by 30%. Worked with modern technologies including React, Node.js, and AWS."
+            "details": [
+                " Designed, implemented, and executed UI and API automated tests formultiple web applications.",
+                "Developed test cases for functional, regression, and exploratory testing",
+                "Improved website SEO, CLS layout, and performance scores using Debugbear, PageSpeed Insight, and Saucelabs",
+                "Collaborated in Agile Scrum teams to analyze requirements and provide testing recommendations.",
+                "Automated acceptance test scenarios using Playwright & Selenium"
+            ],
+            "role": "Front End Developer",
+            "tech_stack": ["HTML / CSS", "JavaScript", "TypeScript", "ReactJs", "NextJs", "Playwright", "Selenium", "Cypress", "Jest", "Git", "GitHub", "Jira", "Confluence"],
+            "projects": [{
+                    "name": "Alyxia",
+                    "description": "Build and update content for Agilityio, and improve page speed for the company website",
+                    "link_web": "https://www.agilityio.com/"
+                },
+                {
+                    "name": "Kash",
+                    "description": "Build a landing page website marketing the Kash and improve the page speed website, introducing the banking application of the Agilityio company",
+                    "link_web": "https://kash.agilityio.com"
+                },
+                {
+                    "name": "Evento",
+                    "description": "Build a marketing landing page for a shopping cart website"
+                },
+                {
+                    "name": "Zenbusiness Group",
+                    "description": "Maintain and update UI with WordPress/PHP, automated blog testing using Playwright & Saucelabs",
+                    "link_web": "https://www.zenbusiness.com"
+                }
+            ]
         },
         {
-            "title": "Software Engineer",
-            "sub_title": "Innovate Labs",
-            "years": "2018 - 2021",
-            "details": "Developed and maintained web applications for various clients. Key contributor in migrating legacy systems to cloud infrastructure."
+            "title": "Front End Developer",
+            "sub_title": "MobiFone Corporation",
+            "years": "2020 - 2021",
+            "details": "Designed, implemented, and executed UI and API automated tests fomultiple web applications",
+            "role": "Front End Developer",
+            "tech_stack": ["HTML / CSS", "JavaScript", "jQuery", "Bootstrap", "MySQL", "RectJs Basic"]
         },
         {
-            "title": "Junior Developer",
-            "sub_title": "Creative Apps Studio",
-            "years": "2015 - 2018",
-            "details": "Worked on mobile app development, collaborating with design teams to create user-friendly applications."
-        }
-    ],
-    "education": [
-        {
-            "title": "Bachelor of Science in Computer Science",
-            "sub_title": "University of Modern Tech",
+            "title": "Wordpress Developer",
+            "sub_title": "IT4GO Start Up",
             "years": "2015 - 2019",
-            "details": "Graduated with honors. Specialized in software development, data structures, and algorithms. Worked on various open-source projects and completed internships in tech companies."
-        },
-        {
-            "title": "Master of Science in Software Engineering",
-            "sub_title": "Global Tech Institute",
-            "years": "2019 - 2021",
-            "details": "Focused on advanced algorithms, cloud computing, and full-stack development. Published research papers on scalable microservices architecture."
+            "details": "Build a Landing Page and Multipage Website with WordPress",
+            "role": "Front End Developer",
+            "tech_stack": ["HTML / CSS", "JavaScript", "WordPress", "Elementor plugin"],
+            "projects": [{
+                "name": "IT4GO",
+                "description": "Build themes templates website marketing the IT4GO and improve the page speed website, SEO for the company website",
+                "link_web": "https://ltheme.com/"
+            }]
         }
     ],
-    "projects": [
-        {
-            "imageUrl": "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=764&auto=format&fit=crop",
-            "title": "hello.com",
+    "education": [{
+        "title": "Bachelor of Information Technology",
+        "sub_title": "University of Education, Da Nang",
+        "years": "2010 - 2014",
+        "details": "Graduated with honors. Specialized in software development, data structures, and algorithms. Worked on various open-source projects and completed internships in tech companies."
+    }],
+    "projects": [{
+            "imageUrl": "assets/Kash.jpg",
+            "title": "Kash - Banking App",
             "type": "Website",
-            "link": "https://github.com/wasutz/astro-resume-theme"
+            "link": "https://kash.agilityio.com"
         },
         {
-            "imageUrl": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=764&auto=format&fit=crop",
-            "title": "Paul UI kit collections",
+            "imageUrl": "/assets/Agilityio.jpg",
+            "title": "Alixia - Company Website",
             "type": "UI Kit",
-            "link": "https://github.com/wasutz/astro-resume-theme"
+            "link": "https://www.agilityio.com/"
         },
         {
-            "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=764&auto=format&fit=crop",
-            "title": "paul.com",
+            "imageUrl": "assets/zenbusiness.jpg",
+            "title": "Zenbusiness - Company Website",
             "type": "Website",
-            "link": "https://github.com/wasutz/astro-resume-theme"
+            "link": "https://www.zenbusiness.com/"
         }
     ],
-    "menuItems": [
-        {
+    "menuItems": [{
             "name": "About",
             "link": "/"
         },
@@ -69,8 +95,7 @@
             "link": "/blogs"
         }
     ],
-    "socialLinks": [
-        {
+    "socialLinks": [{
             "iconName": "Github",
             "link": "https://github.com/wasutz/astro-resume-theme"
         },
